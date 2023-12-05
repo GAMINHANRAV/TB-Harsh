@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID','12774158'))
 API_HASH = environ.get('API_HASH','d7b49cf2022c84fdb4fafd71fa229be6')
-BOT_TOKEN = environ.get('BOT_TOKEN','6036404238:AAHumm2G4hZSA3QyooH3JMhwM69n4yAzNyE')
+BOT_TOKEN = environ.get('BOT_TOKEN','6748478825:AAEC4zeVpbFtq1YpXXrOxfMwS_AQyRGvAuQ')
 
 
 
@@ -35,8 +35,8 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://techvlogamzar:techvlogamzar@cluster0.axecozp.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "AUTO-FILT")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://techvlogamzar:techvlogamzar@cluster0.rigpp2c.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "PLAYER ONE")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
